@@ -1,0 +1,15 @@
+header {
+    border: solid 2px grey;
+    background: linear-gradient(grey,white);
+    text-align: center;
+}
+
+section {
+    margin: 0 auto;
+    width: 60%;
+    height: 700px;
+    border: solid 2px red;
+    background-image: url("../images/bird1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
