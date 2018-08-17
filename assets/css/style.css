@@ -1,15 +1,39 @@
 header {
     border: solid 2px grey;
-    background: linear-gradient(grey,white);
+    background: linear-gradient(lightblue, white);
     text-align: center;
+    height: 7em;
 }
 
 section {
     margin: 0 auto;
     width: 60%;
-    height: 700px;
-    border: solid 2px red;
+    height: 600px;
+    border: solid 2px grey;
     background-image: url("../images/bird1.jpg");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
+}
+button {
+    float: right;
+    position: relative;
+    bottom: 3em;
+    right: 3em;
+}
+#incorrect {
+    position: absolute;
+    top: 38em;
+    left: 28%;
+    border:solid 2px;
+    background-color: white;
+    display: inline-block;
+    padding: 0 30em 5em 0;
+}
+
+#guessThis {
+    /* position: fixed; */
+    text-align: center;
+    padding-top: 3em;
+
 }

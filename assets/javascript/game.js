@@ -10,49 +10,48 @@ var possibleBirds = [
 guessThisBird = [];
 incorrectLetters = [];
 
-function newGame () {
-        // pick a random word
-        var randomBird = possibleBirds[Math.floor(Math.random() * possibleBirds.length)];
+function newGame() {
+    // pick a random word
+    var randomBird = possibleBirds[Math.floor(Math.random() * possibleBirds.length)];
 
-        // display dashes in place of letters
-        var birdDashes = [];
-        for (var i = 0; i < randomBird.length; i++) {
-            birdDashes[i] = "_ ";
+    // display dashes in place of letters
+    var birdDashes = [];
+    for (var i = 0; i < randomBird.length; i++) {
+        birdDashes[i] = "_ ";
 
-            // display birdDashes[i] to html element #guessThis
-            var guessThisBird = document.getElementById("guessThis").textContent = (birdDashes);
-           
-            // guessThisBird.textContent = birdDashes[i];
-            // guessThis.appendchild(guessThisBird);
-            
-            // var guessThisBird = document.createElement("p");
-            // var guessBird = document.createText.birdDashes[i];
-            // guessThisBird.appendChild(guessBird);
-            // document.getElementById("guessThis").appendChild(guessThisBird);
+        // display birdDashes[i] to html element #guessThis
+        var guessThisBird = document.getElementById("guessThis").textContent = (birdDashes);
 
-
-
-            
-
-            // var guessThisBird = document.getElementById("guessThis").value;
-            // 
-
-            // play the game
-
-            // document.onkeyup = function (event) {
-            //     if (gameOver) {
-            //         resetGame();
-            //         finished = false;
-            //     } else {
-            //         if (event.keyCode >= 65 && event.keyCode <= 90) {
-            //             userGuess(event.key.toLowerCase());
-            //         }
-            //     }
-            // };
-
-
-        }
+        // play the game
+        // var userGuess = document.onkeyup = function (event) {
+            // if (gameOver) {
+            //     alert("Game Over! Thanks for killing my bird!");
+            // } else {
+            //     if (event.keycode >= 65 && event.keycode <= 90) {
+            //         userGues(event.key.toLowerCase());
+            //         for (var i = 0; i < birdDashes.length; i++) {
+            //             if (userGuess === birdDashes[i] {
+            //                 alert("Correct!");
     }
+    }
+    //                 
+    // .push("userGuess")
+
+    //             }
+    //         }
+    //     }
+    // }
+    // document.onkeyup = function (event) {
+    //     if (gameOver) {
+    //         resetGame();
+    //         finished = false;
+    //     } else {
+    //         if (event.keyCode >= 65 && event.keyCode <= 90) {
+    //             userGuess(event.key.toLowerCase());
+    //         }
+    //     }
+    // };
+
 
 
 
