@@ -10,7 +10,7 @@ section {
     width: 60%;
     height: 600px;
     border: solid 2px grey;
-    background-image: url("../images/bird1.jpg");
+    background-image: url("../images/6.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -25,8 +25,8 @@ button {
     position: absolute;
     top: 38em;
     left: 28%;
-    border:solid 2px;
-    background-color: white;
+    /* border:solid 2px; */
+    /* background-color: white; */
     display: inline-block;
     padding: 0 30em 5em 0;
 }
@@ -37,3 +37,15 @@ button {
     padding-top: 3em;
 
 }
+
+/* #sectionImage {
+    margin: 0 auto;
+    width: 60%;
+    height: 600px;
+    border: solid 2px grey;
+    background-image: url("../images/6.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+} */
