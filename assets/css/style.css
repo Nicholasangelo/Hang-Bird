@@ -1,3 +1,6 @@
+body {
+    background-color: lightskyblue;
+}
 header {
     border: solid 2px grey;
     background: linear-gradient(lightblue, white);
@@ -17,6 +20,7 @@ h1 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: black;
 }
 button {
     float: right;
@@ -64,6 +68,7 @@ button:focus {
     font-family: 'Finger Paint', 'courier New';
     font-size: 1.2em;
     font-weight: bold;
+    color: yellow;
 
 }
 
