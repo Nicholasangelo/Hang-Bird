@@ -1,5 +1,6 @@
 body {
-    background-color: lightskyblue;
+    background-image: url("../images/feathers.png");
+    background-size: contain;
 }
 header {
     border: solid 2px grey;

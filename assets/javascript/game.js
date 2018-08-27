@@ -36,7 +36,7 @@ function newGame() {
 // //IF WINNER, SOMETHING SHOULD HAPPEN
 function birdIsTheWord() {
     if (birdDashes.indexOf(" _ ") === -1) {
-        alert("Congratulations! This bird has flown the coup!");
+        alert("Congratulations! This bird has flown the coop!");
     }
 };
 
@@ -59,8 +59,10 @@ document.onkeyup = function (event) {
         } else {
             document.getElementById("incorrect").append(userGuess);
             var guessesRemaining = document.getElementById("remainingGuesses");
-            guessesRemaining.innerHTML--;
-            // document.getElementById("sectionImage").style.backgroundImage = "url(../images/" + guessesRemaining + ".jpg)";
+            guessesRemaining.textContent--;
+            
+            document.getElementById("sectionImage").style.backgroundImage = "url('assets/images/" + guessesRemaining.textContent-- + ".jpg')";
+            
     
         if (guessesRemaining.innerHTML = 0) {
             // document.getElementById("sectionImage").src = "..assets/images/0.jpg";
