@@ -4,13 +4,16 @@ body {
 }
 header {
     border: solid 2px grey;
-    background: linear-gradient(lightblue, white);
+    background: linear-gradient(yellow 30%, lightblue, white);
     text-align: center;
     height: 7em;
     font-family: 'Ribeye';
+    width: 60%;
+    margin: 0 auto;
 }
 h1 {
     margin-bottom: -17px;
+    text-shadow: 3px 3px white;
 }
 #sectionImage {
     margin: 0 auto;
@@ -73,15 +76,3 @@ button:focus {
     color: yellow;
 
 }
-
-/* #sectionImage {
-    margin: 0 auto;
-    width: 60%;
-    height: 600px;
-    border: solid 2px grey;
-    background-image: url("../images/6.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-} */

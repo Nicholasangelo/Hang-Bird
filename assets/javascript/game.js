@@ -19,6 +19,7 @@ function newGame() {
     guessesRemaining = 6;
     document.getElementById("remainingGuesses").textContent = guessesRemaining;
     incorrectLetters = document.getElementById("incorrect").textContent = [];
+    document.getElementById("sectionImage").style.backgroundImage = "url('assets/images/" + guessesRemaining + ".jpg')";
     birdDashes = [];
 
     // CREATE RANDOM WORD (RANDOMBIRD) FROM POSSIBLE WORDS
@@ -41,7 +42,7 @@ function birdIsTheWord() {
     }
 };
 
-// __________GAME START________I HAD THIS UP HIGHER BUT MAYBE ITS BETTER HERE?
+// __________GAME START________
 // function newGame(); {
 document.onkeyup = function (event) {
     if (event.keyCode >= 65 && event.keyCode <= 90) {
@@ -62,7 +63,6 @@ document.onkeyup = function (event) {
             guessesRemaining--;
             document.getElementById("remainingGuesses").textContent = guessesRemaining;
             guessesRemaining.textContent--;
-
             document.getElementById("sectionImage").style.backgroundImage = "url('assets/images/" + guessesRemaining + ".jpg')";
 
         }
@@ -70,10 +70,8 @@ document.onkeyup = function (event) {
             alert("Congratulations! This bird has flown the coop!");
         } else if (guessesRemaining === 0) {
             // document.getElementById("sectionImage").src = "..assets/images/0.jpg";
-            alert("What the flock? You killed my bird! <br> Play Again?");
+            alert("What the flock? You killed my bird! Play Again?");
         }
-
-
     }
 };
 
