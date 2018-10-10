@@ -4,12 +4,12 @@ body {
 }
 header {
     border: solid 2px grey;
-    background: linear-gradient(yellow 30%, lightblue, white);
     text-align: center;
     height: 7em;
     font-family: 'Ribeye';
     width: 60%;
     margin: 0 auto;
+    background-color: white;
 }
 h1 {
     margin-bottom: -17px;
@@ -76,3 +76,32 @@ button:focus {
     color: yellow;
 
 }
+@media  screen and (max-width: 466px) {
+#guessThis {
+    position: absolute;
+    top: 12em;
+    right: 6em;
+}
+#sectionImage {
+    width: 80%;
+    height: 600px;
+}
+button { 
+    bottom: 5em;}
+}
+@media screen and (max-width: 768px) {
+    #guessThis {
+        right: 2em;
+    position: relative;
+    }
+    #sectionImage {
+        width: 80%;
+}
+}
+@media screen and (max-width: 425px) {
+    #guessThis {
+        position: absolute;
+        top: 11em;
+        right: 5em;
+    }
+    }
